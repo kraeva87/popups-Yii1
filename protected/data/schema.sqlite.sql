@@ -1,0 +1,7 @@
+CREATE TABLE popup (
+    id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    title VARCHAR(128) NULL,
+    popup_text TEXT NULL,
+    enabled INTEGER DEFAULT '0' NOT NULL,
+	count_show INTEGER DEFAULT '0' NOT NULL
+);
