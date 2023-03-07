@@ -121,7 +121,7 @@ $this->pageTitle=Yii::app()->name;
     </div>
 </div>
 
-<script src="/assets/js/script.js"></script>
+<script src="/assets/js/getpopup.js"></script>
 
 <script>
     window.onload = function() {
